@@ -1,0 +1,11 @@
+.selectedPage {
+    color: red;
+    font-weight: bold;
+    border: solid black 1px;
+}
+.listPages {
+    color: white;
+}
+.pageLink{
+    border: solid #f65bff 1px;
+}
