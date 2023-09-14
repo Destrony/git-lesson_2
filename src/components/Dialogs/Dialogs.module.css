@@ -1,0 +1,39 @@
+.content {
+    grid-area: c;
+    background-color: #aed785;
+}
+.dialog {
+display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialog_body {
+    color: #ff0000;
+}
+.dialog_item {
+    padding: 10px;
+}
+/*.dialog_item:before {*/
+/*content: '.';*/
+/*    background: url("https://i.pinimg.com/236x/de/d5/9a/ded59a6768f50e75db46ebef9851418a--vector-portrait-portrait-illustration.jpg") left/100px 100px no-repeat;*/
+/*}*/
+.dialog_item.active {
+    color: gold;
+}
+.messages {
+    padding: 10px;
+
+color: blueviolet;
+}
+.messages_item {
+color: aqua;
+}
+.photo {
+    padding: 0 10px 0 0;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    /*flex-direction: column;*/
+    width: 80px;
+    height: 70px;
+    border-radius: 100%;
+}
