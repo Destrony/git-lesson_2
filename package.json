@@ -2,7 +2,7 @@
   "name": "react-lesson-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://destrony.github.io/social_network_for_communication",
+  "homepage": "https://destrony.github.io/git-lesson_2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
