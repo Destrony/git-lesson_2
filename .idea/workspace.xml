@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="K">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="68dab158-6bce-4402-b0a5-af303b6f880e" />
+        <option name="url" value="https://github.com/Destrony/git-lesson_2.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -151,11 +156,24 @@
       <workItem from="1693773914355" duration="46919000" />
       <workItem from="1694098062088" duration="68945000" />
       <workItem from="1694460201211" duration="38234000" />
-      <workItem from="1694691533750" duration="10831000" />
+      <workItem from="1694691533750" duration="10995000" />
     </task>
+    <task id="LOCAL-00001" summary="12321">
+      <option name="closed" value="true" />
+      <created>1694810254777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694810254777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12321" />
+    <option name="LAST_COMMIT_MESSAGE" value="12321" />
   </component>
 </project>
