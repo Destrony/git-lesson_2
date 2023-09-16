@@ -1,3 +1,10 @@
 .description {
     padding: 10px;
 }
+.mainPhoto {
+    width: 250px;
+    height: 250px;
+}
+.contact {
+    padding: 0 0 0 10px;
+}

@@ -2,11 +2,14 @@ import React, {Suspense} from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import {
-    HashRouter, Route, Routes
+    BrowserRouter,
+    Route,
+    Routes
 } from "react-router-dom";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
-import UsersContainer from "./components/Users/UsersContainer";
+import UsersContainer
+    from "./components/Users/UsersContainer";
 import HeaderContainer
     from "./components/Header/HeaderContainer";
 import LoginPage from "./components/Login/Login";
@@ -19,7 +22,7 @@ import store from "./redux/redux-store";
 import {
     withRouter
 } from "./components/Profile/ProfileContainer";
-// import DialogsContainer from "./components/Dialogs/DialogsContainer";
+
 const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'));
 const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileContainer'));
 
@@ -57,11 +60,11 @@ const mapStateToProps = (state) => ({
 let AppContainer = compose(withRouter, connect(mapStateToProps, {initializeApp}))(App);
 
 const SamuraiJSApp = (props) => {
-    return <HashRouter>
+    return <BrowserRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </HashRouter>
+    </BrowserRouter>
 }
 
 export default SamuraiJSApp;

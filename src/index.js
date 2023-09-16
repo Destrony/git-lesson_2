@@ -3,12 +3,12 @@ import store from "./redux/redux-store";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-// import reportWebVitals from './reportWebVitals';
+import SamuraiJSApp from './App';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
  const renderEntireTree = (props)=> {
       root.render(
-            <App />
+            <SamuraiJSApp />
     );
 }
 renderEntireTree(store.getState());
