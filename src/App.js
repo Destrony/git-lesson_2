@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import {
-    BrowserRouter,
+    BrowserRouter, Navigate,
     Route,
     Routes
 } from "react-router-dom";
@@ -27,8 +27,18 @@ const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsCo
 const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileContainer'));
 
 class App extends React.Component {
+    catchAllUnhandleErrors = (reason, promise) =>{
+        alert("Some error occured");
+        // console.error(promiseRejectionEvent);
+    }
+
     componentDidMount() {
         this.props.initializeApp();
+        window.addEventListener("unhandledrejection", this.catchAllUnhandleErrors);
+    }
+    componentWillUnmount() {
+        window.removeEventListener("unhandledrejection", this.catchAllUnhandleErrors);
+
     }
 
     render() {
@@ -47,6 +57,8 @@ class App extends React.Component {
                         <Route path='/music' element={<Music/>}/>
                         <Route path='/settings' element={<Settings/>}/>
                         <Route path='/login' element={<LoginPage/>}/>
+                        <Route exact path='/' element={<Navigate to={"/profile"}/>}/>
+                        <Route path='*' element={<div>404 NOT FOUND</div>}/>
                     </Routes>
                     </Suspense>
                 </div>
