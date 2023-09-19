@@ -1,9 +1,9 @@
 import {createSelector} from "reselect";
 
- const getUsersSelector = (state) => {
+const getUsersSelector = (state) => {
     return state.usersPage.users;
 }
-export const getUsers = createSelector(getUsersSelector,(users)=> {
+export const getUsers = createSelector(getUsersSelector, (users) => {
     return users;
 })
 export const getPageSize = (state) => {
@@ -20,4 +20,15 @@ export const getIsFetching = (state) => {
 }
 export const getFollowingInProgress = (state) => {
     return state.usersPage.followingInProgress;
+}
+export const getRandomPlace = (state) => {
+    let coutries = [
+        "Австралия", "Австрия", "Азербайджан", "Албания", "Алжир", "Ангола", "Андорра", "Антигуа",  "Барбуда", "Аргентина", "Армения", "Афганистан", "Багамские", "Острова", "Бангладеш", "Барбадос", " Бахрейн"," Белиз"," Белоруссия"," Бельгия"," Бенин"," Болгария"," Боливия"," Босния и Герцеговина", "Ботсвана"]
+    let cities = [
+        "Абаза", "Абакан", "Абдулино", "Абинск", "Агидель", "Агрыз", "Адыгейск", "Азнакаево", "Азов", "Ак"-"Довурак", "Аксай", "Алагир", "Алапаевск", "Алатырь", "Алдан", "Алейск", "Александров", "Александровск", "Александровск-Сахалинский", "Алексеевка", "Алексин", "Алзамай", "Алупка", "Алушта", "Альметьевск", "Амурск", "Анадырь", "Анапа", "Ангарск", "Андреаполь", "Анжеро-Судженск", "Анива", "Апатиты", "Апрелевка", "Апшеронск", "Арамиль", "Аргун", "Ардатов", "Ардон", "Арзамас", "Аркадак", "Армавир", "Армянск", "Арсеньев"]
+
+    return state.usersPage.randomPlace = {
+        country: coutries,
+        city: cities
+    }
 }

@@ -14,16 +14,17 @@ import {
     getCurrentPage,
     getFollowingInProgress,
     getIsFetching,
-    getPageSize,
+    getPageSize, getRandomPlace,
     getTotalUsersCount,
     getUsers
 } from "../../redux/users-selectors";
 
 class UsersContainer extends React.Component {
     componentDidMount() {
-        const {currentPage, pageSize } = this.props;
+        const {currentPage, pageSize} = this.props;
         this.props.getUsers(currentPage, pageSize);
     }
+
     onPageChanged = (pageNumber) => {
         const {pageSize} = this.props;
         this.props.getUsers(pageNumber, pageSize);
@@ -32,14 +33,16 @@ class UsersContainer extends React.Component {
     render() {
         return <>
             {this.props.isFetching ? <Preloader/> : null}
-            <Users totalUsersCount={this.props.totalUsersCount}
+            <Users
+                totalUsersCount={this.props.totalUsersCount}
                 pageSize={this.props.pageSize}
                 currentPage={this.props.currentPage}
                 onPageChanged={this.onPageChanged}
                 users={this.props.users}
                 follow={this.props.follow}
                 unfollow={this.props.unfollow}
-                followingInProgress = {this.props.followingInProgress}
+                followingInProgress={this.props.followingInProgress}
+                randomPlace={this.props.randomPlace}
             />
         </>
     }
@@ -48,14 +51,19 @@ class UsersContainer extends React.Component {
 let mapStateToProps = (state) => {
     return {
         users: getUsers(state),
-        // users: getUsers(state),
         pageSize: getPageSize(state),
         totalUsersCount: getTotalUsersCount(state),
         currentPage: getCurrentPage(state),
         isFetching: getIsFetching(state),
-        followingInProgress: getFollowingInProgress(state)
-
+        followingInProgress: getFollowingInProgress(state),
+        randomPlace: getRandomPlace(state)
     };
 }
 export default compose(
-    connect(mapStateToProps, {follow, unfollow, setCurrentPage, toggleFollowingProgress, getUsers: requestUsers})) (UsersContainer)
+    connect(mapStateToProps, {
+        follow,
+        unfollow,
+        setCurrentPage,
+        toggleFollowingProgress,
+        getUsers: requestUsers,
+    }))(UsersContainer)

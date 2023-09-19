@@ -2,7 +2,7 @@ import React, {Suspense} from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import {
-    BrowserRouter, Navigate,
+    BrowserRouter, HashRouter, Navigate,
     Route,
     Routes
 } from "react-router-dom";
@@ -72,11 +72,11 @@ const mapStateToProps = (state) => ({
 let AppContainer = compose(withRouter, connect(mapStateToProps, {initializeApp}))(App);
 
 const SamuraiJSApp = (props) => {
-    return <BrowserRouter>
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
 }
 
 export default SamuraiJSApp;

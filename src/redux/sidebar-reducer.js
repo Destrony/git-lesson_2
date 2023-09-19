@@ -1,4 +1,3 @@
-import profileReducer from "./profile-reducer";
 
 let initialState = {}
 const sidebarReducer = (state = initialState,action) => {

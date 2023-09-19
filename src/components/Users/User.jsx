@@ -3,9 +3,13 @@ import styles from "./Users.module.css";
 import userPhoto
     from "../../assects/images/780-7804962_cartoon-avatar-png-image-transparent-avatar-user-image.png";
 import {NavLink} from "react-router-dom";
-import Paginator from "../common/Paginator/Paginator";
 
-let User = ({user, followingInProgress, unfollow, follow}) => {
+let User = ({user, followingInProgress, unfollow, follow, randomPlace}) => {
+    const choose = (choices) => {
+        const index = Math.floor(Math.random() * choices.length);
+        return choices[index];
+    }
+    // debugger;
     return (
                <div>
             <span>
@@ -37,9 +41,10 @@ let User = ({user, followingInProgress, unfollow, follow}) => {
                     <div>{user.name}</div>
                     <div>{user.status}</div>
                 </span>
+
                 <span>
-                    <div>{"user.location.country"}</div>
-                    <div>{"user.location.city"}</div>
+                   <div>{choose(randomPlace.country)}</div>
+                   <div>{choose(randomPlace.city)}</div>
                 </span>
             </span>
                 </div>

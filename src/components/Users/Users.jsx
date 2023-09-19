@@ -19,6 +19,7 @@ let Users = ({
             <div>
             {
                 users.map(u => <User user={u}
+                                     randomPlace={props.randomPlace}
                                      followingInProgress={props.followingInProgress}
                                      unfollow={props.unfollow}
                                      follow={props.follow}
