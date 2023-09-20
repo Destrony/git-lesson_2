@@ -13,7 +13,7 @@ const Dialogs = (props) => {
         <DialogItem name={dia.name} key={dia.id} id={dia.id}
                     photo={dia.photo}/>);
     let messagesElements = state.messagesData.map(mess => <Message message={mess.message} key={mess.id}/>);
-    let newMessageBody = state.newMessageBody;
+    // let newMessageBody = state.newMessageBody;
 
     let addNewMessage = (values) => {
         props.sendMessage(values.newMessageBody);
@@ -26,10 +26,13 @@ const Dialogs = (props) => {
                 {dialogsElements}
             </div>
             <div className={s.messages}>
-                <div>  {messagesElements} </div>
-
+                <div>  {messagesElements}
+                </div>
+                    <div className={s.spaceTextArea}>
+                        <AddMessageForm onSubmit={addNewMessage} />
+                    </div>
             </div>
-            <AddMessageForm onSubmit={addNewMessage} />
+
         </div>
     )
 }

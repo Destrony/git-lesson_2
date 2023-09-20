@@ -30,7 +30,6 @@ class App extends React.Component {
     // catchAllUnhandleErrors = (reason, promise) =>{
     //     alert("Some error occured");
     // }
-
     componentDidMount() {
         this.props.initializeApp();
         // window.addEventListener("unhandledrejection", this.catchAllUnhandleErrors);

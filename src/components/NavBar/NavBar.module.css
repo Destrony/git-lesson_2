@@ -2,6 +2,8 @@
   grid-area: n;
 background-color: #cd8dbc;
   padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 .item {
   color: white;
@@ -15,4 +17,6 @@ a{
 /*}*/
 .active {
   color: rgba(0, 0, 0, 0.65);
+  text-decoration: underline #ec6bff;
+  /*text-underline: #aed785;*/
 }

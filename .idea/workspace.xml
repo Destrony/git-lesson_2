@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +173,8 @@
       <workItem from="1694691533750" duration="20729000" />
       <workItem from="1694863502023" duration="19184000" />
       <workItem from="1695072283826" duration="8867000" />
-      <workItem from="1695135481571" duration="300000" />
+      <workItem from="1695135481571" duration="1134000" />
+      <workItem from="1695239848393" duration="8781000" />
     </task>
     <task id="LOCAL-00001" summary="12321">
       <option name="closed" value="true" />
@@ -227,11 +232,30 @@
       <option name="project" value="LOCAL" />
       <updated>1695083102135</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change logo">
+      <option name="closed" value="true" />
+      <created>1695135836903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695135836903</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12321" />
@@ -241,6 +265,7 @@
     <MESSAGE value="99 lesson" />
     <MESSAGE value="100 lesson" />
     <MESSAGE value="add cities" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cities" />
+    <MESSAGE value="change logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="change logo" />
   </component>
 </project>
