@@ -15,7 +15,7 @@ let User = ({user, followingInProgress, unfollow, follow, randomPlace}) => {
             <span>
                 <div>
                     <NavLink to={'/profile/' + user.id}>
-                    <img
+                    <img alt={"face"}
                         src={user.photos.small != null ? user.photos.small : userPhoto}
                         className={styles.userPhoto}/>
                         </NavLink>
@@ -43,8 +43,8 @@ let User = ({user, followingInProgress, unfollow, follow, randomPlace}) => {
                 </span>
 
                 <span>
-                   <div>{choose(randomPlace.country)}</div>
-                   <div>{choose(randomPlace.city)}</div>
+                   <div>{choose(randomPlace)}</div>
+                   {/*<div>{choose(randomPlace.city)}</div>*/}
                 </span>
             </span>
                 </div>

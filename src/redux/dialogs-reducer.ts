@@ -1,6 +1,17 @@
 const SEND_MESSAGE = 'SEND_MESSAGE';
 
+
+type DialogType = {
+    id: number
+    name: string
+    photo: string
+}
+type MessageType = {
+    id: number
+    message: string
+}
 let initialState = {
+
     dialogData: [
         {
             id: 1,
@@ -26,13 +37,13 @@ let initialState = {
             id: 5,
             name: 'Tatiana',
             photo: 'https://i.pinimg.com/originals/03/f3/49/03f349997190c84f73c380c07c6102ff.jpg'
-        },
+        } ,
         {
             id: 6,
             name: 'Dasha',
             photo: 'https://sun9-7.userapi.com/impf/c625621/v625621814/25c47/AbIcYY9p_3k.jpg?size=320x240&quality=96&sign=09ec26f37eb0176ecfa61705761b8059&c_uniq_tag=D-bt_MwZPB9sxP8Zd3ix1LglNDi7BgDq8SWzuo72KcI&type=album'
         }
-    ],
+    ] as Array<DialogType>,
     messagesData: [
         {id: 1, message: 'Hi'},
         {
@@ -42,9 +53,10 @@ let initialState = {
         {id: 3, message: 'My name is Pain'},
         {id: 4, message: 'My name is Pain'},
         {id: 5, message: 'My name is Pain'}
-    ]
+    ] as Array<MessageType>
 }
- const dialogsReducer = (state = initialState, action) => {
+export type InitialStateType = typeof initialState;
+ const dialogsReducer = (state = initialState, action: any):InitialStateType  => {
      switch (action.type) {
          case SEND_MESSAGE:
              let body = action.newMessageBody;
@@ -56,5 +68,10 @@ let initialState = {
              return state;
      }
  }
-export const sendMessageCreator = (newMessageBody) => ({type: SEND_MESSAGE, newMessageBody})
+
+ type SendMessageCreatorActionType = {
+     type: typeof SEND_MESSAGE
+     newMessageBody: string
+ }
+export const sendMessageCreator = (newMessageBody:string):SendMessageCreatorActionType => ({type: SEND_MESSAGE, newMessageBody})
 export default dialogsReducer;

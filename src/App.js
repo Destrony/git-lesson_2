@@ -2,7 +2,8 @@ import React, {Suspense} from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import {
-    BrowserRouter, HashRouter, Navigate,
+    HashRouter,
+    Navigate,
     Route,
     Routes
 } from "react-router-dom";
@@ -51,7 +52,7 @@ class App extends React.Component {
                     <Routes>
                         <Route path='/profile/:userId?' element={<ProfileContainer/>}/>
                         <Route path='/dialogs/*' element={<DialogsContainer/>}/>
-                        <Route path='/users' element={<UsersContainer/>}/>
+                        <Route path='/users' element={<UsersContainer pageTitle={"Бойцы"}/>}/>
                         <Route path='/music' element={<Music/>}/>
                         <Route path='/settings' element={<Settings/>}/>
                         <Route path='/login' element={<LoginPage/>}/>
