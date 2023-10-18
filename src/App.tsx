@@ -133,7 +133,7 @@ class App extends React.Component<MapPropsType & DispatchPropsType> {
             return (
                 <div className='app-wrapper '>
                     <Preloader />
-                    <Music />
+                    {/*<Settings />*/}
                 </div>)
         }
 
