@@ -25,3 +25,6 @@ export const getFollowingInProgress = (state:AppStateType) => {
 export const getRandomPlace = (state:AppStateType) => {
     return state.usersPage.randomPlace
 }
+export const getUsersFilter = (state:AppStateType) => {
+    return state.usersPage.filter
+}

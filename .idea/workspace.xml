@@ -4,8 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="">
+    <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="UI cganges">
+      <change afterPath="$PROJECT_DIR$/src/api/auth-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/profile-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/security-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/users-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/AddPostForm/AddPostForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersSearchForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-selectors.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/users-reducer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assects/images/780-7804962_cartoon-avatar-png-image-transparent-avatar-user-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/AddMessageForm/AddMessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/AddMessageForm/AddMessageForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Music/Music.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-selectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/declaration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/declaration.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/object-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/object-helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +118,14 @@
     &quot;git-widget-placeholder&quot;: &quot;407ef047&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React_projects/01_project/react-lesson-1/src/components/Profile/ProfileInfo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/прогерство/main-project/git-lesson_2/src/redux&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/React_projects/01_project/react-lesson-1/node_modules/react-scripts&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/прогерство/main-project/git-lesson_2/node_modules/react-scripts&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
@@ -72,62 +134,71 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\redux" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\components\Profile\ProfileInfo" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\components\Users" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\components\common\Paginator" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\redux" />
-      <recent name="D:\React_projects\01_project\react-lesson-1\src\components\common\FormsControls" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\прогерство\main-project\git-lesson_2" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\components" />
     </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\api\api.ts" />
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\api\security-api.ts" />
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\api\auth-api.ts" />
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\api\profile-api.ts" />
+      <recent name="D:\прогерство\main-project\git-lesson_2\src\api\users-api.ts" />
+    </key>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
-    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.success follow thunk ">
+    <configuration name="Unnamed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="callback should be called" />
+        <test-name value="" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="ProfileStatus component.input should be displayed in editMode" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="success follow thunk " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="input should be displayed in editMode" />
+        <test-name value="success follow thunk " />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
+    <configuration name="unfollow success" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/users-reducer.test.ts" />
+      <test-names>
+        <test-name value="unfollow success" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
+    <configuration name="unsuccess follow thunk " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts" />
+      <test-names>
+        <test-name value="unsuccess follow thunk " />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -142,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
-        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode" />
+        <item itemvalue="Jest.success follow thunk " />
+        <item itemvalue="Jest.unsuccess follow thunk " />
+        <item itemvalue="Jest.Unnamed" />
+        <item itemvalue="Jest.unfollow success" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +243,19 @@
       <workItem from="1695239848393" duration="8781000" />
       <workItem from="1695758351190" duration="4571000" />
       <workItem from="1695762946168" duration="27802000" />
-      <workItem from="1695846562927" duration="1046000" />
+      <workItem from="1695846562927" duration="8507000" />
+      <workItem from="1696079211312" duration="8643000" />
+      <workItem from="1696115737337" duration="2714000" />
+      <workItem from="1696118495829" duration="865000" />
+      <workItem from="1696119676445" duration="57000" />
+      <workItem from="1696119750746" duration="205000" />
+      <workItem from="1696119980333" duration="16846000" />
+      <workItem from="1696197911348" duration="4423000" />
+      <workItem from="1696432710619" duration="257000" />
+      <workItem from="1696864079789" duration="12086000" />
+      <workItem from="1696977450910" duration="33936000" />
+      <workItem from="1697320876644" duration="14821000" />
+      <workItem from="1697494780742" duration="29062000" />
     </task>
     <task id="LOCAL-00001" summary="12321">
       <option name="closed" value="true" />
@@ -254,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695847124467</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change js to ts">
+      <option name="closed" value="true" />
+      <created>1695847763836</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695847763836</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +373,33 @@
     <MESSAGE value="change logo" />
     <MESSAGE value="add ts" />
     <MESSAGE value="change js to ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="change js to ts" />
+    <MESSAGE value="UI cganges" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI cganges" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/api/auth-api.ts</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/users-reducer.thunk.test.ts</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

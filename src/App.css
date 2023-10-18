@@ -11,10 +11,19 @@
   "n c";
 }
 .app-wrapper-content {
-
   grid-area: c;
-  background-color: #aed785;
-
+  background-color: #f4f4f4;
+}
+.created-by {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
+.pad-left-10px {
+  padding-left: 7px;
+}
+
+.redColor {
+  color: red;
+}
 

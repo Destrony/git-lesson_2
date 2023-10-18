@@ -10,13 +10,17 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^18.2.23",
     "@types/react-redux": "^7.1.27",
+    "@types/react-router-dom": "^5.3.3",
     "@types/redux-form": "^8.3.6",
+    "antd": "^5.10.1",
     "axios": "^1.5.0",
     "classnames": "^2.3.2",
+    "formik": "^2.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "react-redux": "^8.1.1",
+    "react-route-props": "^1.0.4",
     "react-router-dom": "^6.14.1",
     "react-scripts": "^5.0.1",
     "redux": "^4.2.1",
@@ -58,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^18.0.3",
     "gh-pages": "^6.0.0",
     "react-test-renderer": "^18.2.0"
   }
