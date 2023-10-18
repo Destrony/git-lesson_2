@@ -4,8 +4,10 @@
     border: solid black 1px;
 }
 .listPages {
-    color: white;
+    color: black;
 }
 .pageLink{
-    border: solid #f65bff 1px;
+    border: solid #2b2949 1px;
+    margin: 0px 2px;
+    cursor: pointer;
 }

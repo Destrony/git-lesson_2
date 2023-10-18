@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4aa8bee-fb8f-4209-9abb-a906984c04eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Chat/ChatPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,7 @@
       <recent name="D:\React_projects\01_project\react-lesson-1\src\redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\прогерство\main-project\git-lesson_2\public" />
       <recent name="D:\прогерство\main-project\git-lesson_2" />
       <recent name="D:\React_projects\01_project\react-lesson-1\src\components" />
     </key>
@@ -192,7 +197,7 @@
       <workItem from="1696864079789" duration="12086000" />
       <workItem from="1696977450910" duration="33936000" />
       <workItem from="1697320876644" duration="14821000" />
-      <workItem from="1697494780742" duration="30283000" />
+      <workItem from="1697494780742" duration="31848000" />
     </task>
     <task id="LOCAL-00001" summary="12321">
       <option name="closed" value="true" />
@@ -290,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697624416143</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="UI changes №2">
+      <option name="closed" value="true" />
+      <created>1697625762532</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697625762532</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +332,8 @@
     <MESSAGE value="add ts" />
     <MESSAGE value="change js to ts" />
     <MESSAGE value="UI cganges" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI cganges" />
+    <MESSAGE value="UI changes №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI changes №2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

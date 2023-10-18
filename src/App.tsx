@@ -29,11 +29,12 @@ import {
     UserOutlined
 } from '@ant-design/icons';
 import {HeaderComponent} from "./components/Header/Header";
-
 const DialogsContainer = React.lazy(() =>
     import('./components/Dialogs/DialogsContainer'));
 const ProfileContainer = React.lazy(() =>
     import('./components/Profile/ProfileContainer'));
+const ChatPage = React.lazy(() =>
+    import('./pages/Chat/ChatPage'));
 
 type MapPropsType = ReturnType<typeof mapStateToProps>
 
@@ -62,21 +63,10 @@ export function getItem(label: React.ReactNode,
 const itemsSideMenu: MenuItem[] = [
 
     getItem('My Profile', 'MyProfile', <UserOutlined />, [
-        getItem(
-            <Link to='/profile'>
-                Profile
-            </Link>,
-            'Profile'),
-        getItem(
-            <Link to='/dialogs'>
-                Messages
-            </Link>,
-            'Messages'),
-        getItem(
-            <Link to='/users'>
-                Users
-            </Link>,
-            'Users')
+        getItem(<Link to='/profile'>Profile</Link>, 'Profile'),
+        getItem(<Link to='/dialogs'>Messages</Link>, 'Messages'),
+        getItem(<Link to='/chat'>Chat</Link>, 'Chat'),
+        getItem(<Link to='/users'>Users</Link>, 'Users')
     ]),
 
     getItem('Developers', 'Developers', <LaptopOutlined />, [
@@ -167,6 +157,7 @@ class App extends React.Component<MapPropsType & DispatchPropsType> {
                                 <Route path='/music' element={<Music/>}/>
                                 <Route path='/settings' element={<Settings/>}/>
                                 <Route path='/login' element={<LoginPage/>}/>
+                                <Route path='/chat' element={<ChatPage/>}/>
                                 <Route path='/' element={<Navigate to={"/profile"}/>}/>
                                 <Route path='*' element={<div>404 NOT FOUND
                                     <Button type={"primary"}>OK</Button>

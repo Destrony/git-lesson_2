@@ -16,7 +16,6 @@ let User: React.FC<PropsType> = ({user, followingInProgress, unfollow, follow, r
         const index = Math.floor(Math.random() * choices.length);
         return choices[index];
     }
-    // debugger;
     return (
                <div>
             <span>
