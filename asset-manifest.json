@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/git-lesson_2/static/css/main.2d081018.css",
-    "main.js": "/git-lesson_2/static/js/main.59520e9a.js",
+    "main.js": "/git-lesson_2/static/js/main.a4417ffc.js",
     "static/css/514.d68166e4.chunk.css": "/git-lesson_2/static/css/514.d68166e4.chunk.css",
     "static/js/514.184373f4.chunk.js": "/git-lesson_2/static/js/514.184373f4.chunk.js",
-    "static/js/259.f984b09a.chunk.js": "/git-lesson_2/static/js/259.f984b09a.chunk.js",
+    "static/css/58.62080a5b.chunk.css": "/git-lesson_2/static/css/58.62080a5b.chunk.css",
+    "static/js/58.6c9cb207.chunk.js": "/git-lesson_2/static/js/58.6c9cb207.chunk.js",
     "static/js/988.0cfbe5e8.chunk.js": "/git-lesson_2/static/js/988.0cfbe5e8.chunk.js",
     "static/media/1476.gif": "/git-lesson_2/static/media/1476.e78f8f5d8c2ac05430c9.gif",
     "static/media/logo.png": "/git-lesson_2/static/media/logo.c1f21770a6fc975a1942.png",
     "index.html": "/git-lesson_2/index.html",
     "main.2d081018.css.map": "/git-lesson_2/static/css/main.2d081018.css.map",
-    "main.59520e9a.js.map": "/git-lesson_2/static/js/main.59520e9a.js.map",
+    "main.a4417ffc.js.map": "/git-lesson_2/static/js/main.a4417ffc.js.map",
     "514.d68166e4.chunk.css.map": "/git-lesson_2/static/css/514.d68166e4.chunk.css.map",
     "514.184373f4.chunk.js.map": "/git-lesson_2/static/js/514.184373f4.chunk.js.map",
-    "259.f984b09a.chunk.js.map": "/git-lesson_2/static/js/259.f984b09a.chunk.js.map",
+    "58.62080a5b.chunk.css.map": "/git-lesson_2/static/css/58.62080a5b.chunk.css.map",
+    "58.6c9cb207.chunk.js.map": "/git-lesson_2/static/js/58.6c9cb207.chunk.js.map",
     "988.0cfbe5e8.chunk.js.map": "/git-lesson_2/static/js/988.0cfbe5e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d081018.css",
-    "static/js/main.59520e9a.js"
+    "static/js/main.a4417ffc.js"
   ]
 }
