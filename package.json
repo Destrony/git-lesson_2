@@ -28,7 +28,9 @@
     "redux-thunk": "^2.4.2",
     "reselect": "^4.1.8",
     "source-map-loader": "^4.0.1",
-    "web-vitals": "^2.1.4"
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.2"
   },
   "jest": {
     "transformIgnorePatterns": [
@@ -63,6 +65,7 @@
   },
   "devDependencies": {
     "@types/react-test-renderer": "^18.0.3",
+    "@types/uuid": "^9.0.6",
     "gh-pages": "^6.0.0",
     "react-test-renderer": "^18.2.0"
   }

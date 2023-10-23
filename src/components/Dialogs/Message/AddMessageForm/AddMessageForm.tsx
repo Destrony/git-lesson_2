@@ -17,6 +17,7 @@ type PropsType = {}
 
 const AddMessageForm: React.FC<InjectedFormProps<NewMessageFormValuesType, PropsType>
     & PropsType> = (props) => {
+
     return <form onSubmit={props.handleSubmit}>
         <div>
             {createField<NewMessageFormValuesKeysType>("Enter your message",

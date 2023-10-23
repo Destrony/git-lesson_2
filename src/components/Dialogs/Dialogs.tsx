@@ -31,7 +31,6 @@ const Dialogs: React.FC<PropsType> = (props) => {
         <Message message={mess.message} key={mess.id}/>);
 
     let addNewMessage = (values: NewMessageFormValuesType) => {
-        debugger;
         props.sendMessage(values.newMessageBody);
     }
     if (!props.isAuth) return <Navigate to={"/login"}/>;

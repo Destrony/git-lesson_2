@@ -14,6 +14,6 @@ return {
 }
 
 export default compose<React.ComponentType>(
-    connect(mapStateToProps, {actions}),
+    connect(mapStateToProps, {...actions}),
     withAuthRedirect
 ) (Dialogs);
